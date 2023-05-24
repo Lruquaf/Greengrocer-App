@@ -66,6 +66,7 @@ async function buyPotato() {
         } catch (error) {
             console.log(error)
         }
+        refresh()
     }
 }
 
@@ -85,6 +86,7 @@ async function buyOnion() {
         } catch (error) {
             console.log(error)
         }
+        refresh()
     }
 }
 
@@ -102,6 +104,7 @@ async function withdraw() {
         } catch (error) {
             console.log(error)
         }
+        refresh()
     }
 }
 
