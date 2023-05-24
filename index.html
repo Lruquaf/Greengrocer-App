@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Greengrocer</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <h1>Greengrocer App</h1>
+        <div id="connection">
+            <button id="refresh">Refresh Data</button>
+            <button id="connect">Connect Wallet</button>
+            <button id="withdraw">Withdraw Fees</button>
+        </div>
+
+        <script src="./index.js" type="module"></script>
+        <div class="products">
+            <div class="potato">
+                <img
+                    class="image"
+                    id="imageP"
+                    src="images/potato.jpg"
+                    alt="Potato"
+                />
+                <p id="descriptionP">A Potato</p>
+                <p id="amountP">amount</p>
+                <p id="priceP">price</p>
+                <button id="buyPotato">Buy</button>
+            </div>
+            <div class="onion">
+                <img
+                    class="image"
+                    id="imageO"
+                    src="images/onion.jpg"
+                    alt="Onion"
+                />
+                <p id="descriptionO">An Onion</p>
+                <p id="amountO">amount</p>
+                <p id="priceO">price</p>
+                <button id="buyOnion">Buy</button>
+            </div>
+        </div>
+    </body>
+</html>

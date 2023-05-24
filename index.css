@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+#refresh {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#connect {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#withdraw {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.products {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image {
+    border-color: black;
+    width: 200px;
+}
+#imageP {
+    border-color: aqua;
+}
